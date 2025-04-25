@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_FILE = path.join(__dirname, '../data.txt');
-const SECRET_WORD = "secret123"; // Секретное слово
+const SECRET_WORD = "ifuckedyourmoms)"; // Секретное слово
 
 module.exports = async (req, res) => {
   if (req.method !== 'GET') {
