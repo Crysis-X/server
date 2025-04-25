@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/save",
+      "dest": "/api/save",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/api/read",
+      "dest": "/api/read",
+      "methods": ["GET"]
+    }
+  ]
+}
